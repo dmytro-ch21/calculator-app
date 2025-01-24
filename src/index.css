@@ -1,28 +1,12 @@
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+.history-box {
+  min-width: 300px;
+  background-color: #222;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
 }
 
-.pulse {
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.05);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+.history-box::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
 }

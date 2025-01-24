@@ -1,0 +1,82 @@
+/* General container for the app */
+.container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Calculator styling */
+.calculator {
+    padding: 1rem;
+    width: 300px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+/* Display section (input and operation display) */
+.display {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #5a5a5a;
+    border-radius: 4px;
+}
+
+.display .top-display {
+    text-align: right;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.display input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+/* Button styling */
+.calculator-buttons .btn {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.bg-dark {
+    background-color: #222 !important;
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.text-dark {
+    color: #333 !important;
+}
+
+/* Highlighted operator buttons */
+.operator-btn {
+    background-color: #3c82f6 !important;
+}
+
+.history-box {
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #222;
+    border-radius: 8px;
+    color: white;
+}
+
+.history-box::-webkit-scrollbar {
+    display: none;
+}
+
+.history-box {
+    scrollbar-width: none;
+}
